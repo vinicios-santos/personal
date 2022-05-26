@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #333;
+    width: 100%;
+    height: 120px;
+    font-size: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+header img {
+    width: 70px;
+}
+
+button img {
+    width: 30px;
+    margin: 10px;
+}
+
+#showImc {
+    margin: 30px 0px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+#showImc span {
+    background-color: #218838;
+    color: #fff;
+}
+
+#showImc input {
+    background-color: #555;
+    color: black;
+}
+
+#displayImc {
+    margin: 30px 0px;
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
