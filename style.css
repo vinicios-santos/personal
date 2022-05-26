@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: #111;
+}
 
 header {
     background-color: #333;
@@ -41,10 +44,53 @@ button img {
     background-color: #555;
     color: black;
 }
+#showImc Button {
+    margin: 20px 0px;
+}
 
 #displayImc {
     margin: 30px 0px;
     background-color: #444;
     border-radius: 10px;
     padding: 20px 50px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    padding: 15px;
+    width: 100%;
+}
+footer img{
+    width: 70px;
+}
+#pinkbutton{
+    color: #fff;
+    background-color: #F87B90;
+    border-color: #F87B90;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #F87B90;
+    --bs-btn-border-color: #F87B90;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #F87B90;
+    --bs-btn-hover-border-color: #F87B90;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F87B90;
+    --bs-btn-active-border-color: #F87B90;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #F87B90;
+    --bs-btn-disabled-border-color: #F87B90;
+}
+#pinkbutton:hover{
+    border-color: #f87b90e1;
+    background-color: #f87b90e1;
+}
+#pinkbutton:active{
+    border-color: lime;
+}
+#showInputsImc{
+    display: none;
 }
