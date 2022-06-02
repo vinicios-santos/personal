@@ -23,42 +23,31 @@
                 <div class="col-md-12 col-sm-12 col-lg-12 col-12">
                     <div id="showImc">
                         <h2>Cálculo IMC</h2>
-                        <div id="selectGenderImc">
-                            <button type="button" class="btn btn-primary btn-lg">Homem</button>
-                            <button type="button" id="pinkbutton" class="btn btn-primary btn-lg">Mulher</button>
-                        </div>
-                        <div id="showInputsImc">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1">Peso</span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Digite o peso"
-                                ria-describedby="basic-addon1">
-                        </div>
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1">Altura</span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Digite a altura"
-                                ria-describedby="basic-addon1">
-                        </div>
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1">Idade</span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Digite a idade"
-                                ria-describedby="basic-addon1">
-                        </div>
-                        <button type="button" class="btn btn-warning btn-lg btn-block">Calcular</button><br>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 col-lg-12 col-12">
-                                <div id="displayImc">
-                                    <p>Seu IMC é de 0.2</p>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">Peso</span>
                                 </div>
-                                </div>
+                                <input type="text" class="form-control" id="pesoImc" placeholder="Digite o peso" ria-describedby="basic-addon1">
                             </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">Altura</span>
+                                </div>
+                                <input type="text" class="form-control" id="alturaImc" placeholder="Digite a altura" ria-describedby="basic-addon1">
+                            </div>
+                            <button type="button" id="calImc" class="btn btn-warning btn-lg btn-block">Calcular</button><br>
+                            <!-- <div class="row">
+                                <div id="displayImc" class="col-md-12 col-sm-12 col-lg-12 col-12">
+                                    <p>Seu IMC é 20.0
+                                        Abaixo de 24.9
+                                        Peso Normal
+                                        Parabéns, você está com o peso normal. Recomendamos que mantenha hábitos saudáveis em seu dia a dia. Especialistas sugerem ingerir de 4 a 5 porções diárias de frutas, verduras e legumes, além da prática de exercícios físicos - pelo menos 150 minutos semanais.5
+                                        
+                                        * Cálculos válidos apenas para pessoas adultas.</p>
+                                </div>
+                            </div> -->
+                            <button type="button" id="closeImc" class="btn btn-danger btn-lg btn-block">Fechar</button><br>
                         </div>
-                        <button type="button" id="closeImc" class="btn btn-danger btn-lg btn-block">Fechar</button><br>
                     </div>
                 </div>
             </div>
@@ -66,7 +55,7 @@
     </div>
     <footer>
         <img src='https://cdn-icons-png.flaticon.com/512/2964/2964514.png'>
-        Copyright © 2022 Vinicios da Silva Santos 
+        Copyright © 2022 Vinicios da Silva Santos
     </footer>
 </body>
 <script src="script.js"></script>

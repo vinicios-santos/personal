@@ -3,7 +3,8 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     background-color: #111;
 }
 
@@ -32,7 +33,7 @@ button img {
     background-color: #333;
     border-radius: 10px;
     padding: 20px 50px;
-    display: none;
+    display: block;
 }
 
 #showImc span {
@@ -44,6 +45,7 @@ button img {
     background-color: #555;
     color: black;
 }
+
 #showImc Button {
     margin: 20px 0px;
 }
@@ -54,7 +56,8 @@ button img {
     border-radius: 10px;
     padding: 20px 50px;
 }
-footer{
+
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -62,10 +65,12 @@ footer{
     padding: 15px;
     width: 100%;
 }
-footer img{
+
+footer img {
     width: 70px;
 }
-#pinkbutton{
+
+#pinkbutton {
     color: #fff;
     background-color: #F87B90;
     border-color: #F87B90;
@@ -75,7 +80,7 @@ footer img{
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #F87B90;
     --bs-btn-hover-border-color: #F87B90;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #F87B90;
     --bs-btn-active-border-color: #F87B90;
@@ -84,13 +89,25 @@ footer img{
     --bs-btn-disabled-bg: #F87B90;
     --bs-btn-disabled-border-color: #F87B90;
 }
-#pinkbutton:hover{
+
+#pinkbutton:hover {
     border-color: #f87b90e1;
     background-color: #f87b90e1;
 }
-#pinkbutton:active{
+
+#pinkbutton:active {
     border-color: lime;
 }
-#showInputsImc{
+
+#showInputsImcMale {
     display: none;
+}
+
+#showInputsImcFemale {
+    display: none;
+}
+#displayImc{
+    background-color: #555;
+    font-size: 13px;
+    border: 2px solid #111;
 }
